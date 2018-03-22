@@ -1,7 +1,5 @@
 ﻿C#和JAVA语言规范比较
 
-JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)
-
 | java   | c#     | java   | c#     | java     | c#        | java   | c#      | java       | c#       |
 |:-------|:-------|:-------|:-------|:---------|:----------|:-------|:--------|:-----------|:----------|
 |abstract|abstract|continue|continue|for       |for       |new     |new      |switch      |switch     |
@@ -17,4 +15,7 @@ JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/
 |_       |_       |        |        |          |          |        |         |           |            |
 
 JAVA另外：
+
 strictfp, 即 strict float point (精确浮点)
+
+JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)
