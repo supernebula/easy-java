@@ -14,7 +14,7 @@ JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/
 |char    |char    |final   |readonly?|interface|interface  |static  |static   |void        |void       |
 |class   |class   |finally |finally |long      |long       |strictfp|         |volatile    |volatile?  |
 |const   |const?  |float   |float   |native    |           |super   |base     |while       |while      |
-|_ (underscore)|  |        |        |          |           |        |         |           |            |
+|_ (下划线)|       |        |        |          |           |        |         |           |            |
 
 JAVA另外：
 strictfp, 即 strict float point (精确浮点)
