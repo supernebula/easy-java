@@ -2,17 +2,19 @@
 
 JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)
 
-|           |           |             |            |            | 
-|:--------- |:----------|:------------|:-----------|:-----------| 
-|abstract   |continue   |for          |new         |switch      |
-|assert     |default    |if           |package     |synchronized|
-|boolean    |do         |goto         |private     |this        |
-|break      |double     |implements   |protected   |throw       |
-|byte       |else       |import       |public      |throws      |
-|case       |enum       |instanceof   |return      |transient   |
-|catch      |extends    |int          |short       |try         |
-|char       |final      |interface    |static      |void        |
-|class      |finally    |long         |strictfp    |volatile    |
-|const      |float      |native       |super       |while       |
-|_ (underscore)|        |             |            |            |
+|  java     |  c#       |  java     |  c#       |  java       |  c#       |  java      |  c#       |  java      |  c#       |
+|:--------- |:--------- |:----------|:----------|:------------|:----------|:-----------|:----------|:-----------|:----------|
+|abstract   |abstract   |continue   | continue  |for          |for        |new         |new        |switch      |switch     |
+|assert     |           |default    | default   |if           |if         |package     |namespace  |synchronized|lock       |
+|boolean    |bool       |do         | do        |goto         |goto       |private     |private    |this        |this       |
+|break      |break      |double     |double     |implements   |: (实现接口)|protected   |protected  |throw       |throw      |
+|byte       |byte       |else       |else       |import       |           |public      |           |throws      |           |
+|case       |           |enum       |           |instanceof   |           |return      |           |transient   |           |
+|catch      |           |extends    |:（继承类） |int          |int        |short       |short      |try         |try        |
+|char       |char       |final      |const/readonly?|interface |interface  |static      |static     |void        |void       |
+|class      |class      |finally    |finally    |long         |long       |strictfp    |           |volatile    |volatile?  |
+|const      |const?     |float      |float      |native       |           |super       |base       |while       |while      |
+|_ (underscore)||       |           |           |             |           |            |           |            |           |
 
+JAVA另外：
+strictfp, 即 strict float point (精确浮点)
