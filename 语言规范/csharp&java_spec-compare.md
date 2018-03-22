@@ -2,16 +2,16 @@
 
 | JAVA   | c#     | JAVA   | c#     | JAVA     | c#        | JAVA   | c#      | JAVA       | c#       |
 |:-------|:-------|:-------|:-------|:---------|:----------|:-------|:--------|:-----------|:----------|
-|abstract|*abstract*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
+|abstract|*<font color=gray>abstract</font>*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |        |default |*default* |if        |*if*      |package |*namespace*|synchronized|*lock*  |
-|boolean |*bool*  |do      |*do*      |goto      |*goto*    |private |*private*  |this        |*this*  |
-|break   |*break* |double  |*double*  |implements|*:(实现接口)*|protected|*protected*|throw       |*throw*|
-|byte    |*byte*  |else    |*else*    |import    |*using*   |public  |*public*   |throws      |         |
-|case    |*case*  |enum    |*enum*    |instanceof|*as*      |return  |*return*   |transient   |         |
-|catch   |*catch* |extends |*:(继承类)*|int       |*int*     |short  |*short*    |try         |*try*     |
-|char    |*char* |final   |*readonly?*|interface|*interface*|static  |*static*   |void        |*void*  |
-|class   |*class* |finally |*finally* |long      |*long*     |strictfp|         |volatile    |*volatile?*|
-|const   |*const?*|float   |*float*   |native    |          |super   |*base*     |while       |*while*  |
+|boolean |*<font color=gray>bool</font>*  |do      |*do*      |goto      |*goto*    |private |*private*  |this        |*this*  |
+|break   |*<font color=gray>break</font>* |double  |*double*  |implements|*:(实现接口)*|protected|*protected*|throw       |*throw*|
+|byte    |*<font color=gray>byte</font>*  |else    |*else*    |import    |*using*   |public  |*public*   |throws      |         |
+|case    |*<font color=gray>case</font>*  |enum    |*enum*    |instanceof|*as*      |return  |*return*   |transient   |         |
+|catch   |*<font color=gray>catch</font>* |extends |*:(继承类)*|int       |*int*     |short  |*short*    |try         |*try*     |
+|char    |*<font color=gray>char</font>* |final   |*readonly?*|interface|*interface*|static  |*static*   |void        |*void*  |
+|class   |*<font color=gray>class</font>* |finally |*finally* |long      |*long*     |strictfp|         |volatile    |*volatile?*|
+|const   |*<font color=gray>const?</font>*|float   |*float*   |native    |          |super   |*base*     |while       |*while*  |
 |_       |_       |        |        |          |          |        |         |           |            |
 
 JAVA另外：
