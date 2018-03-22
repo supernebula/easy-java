@@ -1,6 +1,6 @@
 ﻿C#和JAVA语言规范比较:
 
-| java   | c#     | java   | c#     | java     | c#        | java   | c#      | java       | c#       |
+| JAVA   | c#     | JAVA   | c#     | JAVA     | c#        | JAVA   | c#      | JAVA       | c#       |
 |:-------|:-------|:-------|:-------|:---------|:----------|:-------|:--------|:-----------|:----------|
 |abstract|*abstract*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |        |default |*default* |if        |*if*      |package |*namespace*|synchronized|*lock*  |
