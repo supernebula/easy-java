@@ -1,7 +1,9 @@
 ﻿C#和JAVA语言规范比较
 
 JAVA关键字，引用自[Java10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)
-|:---|:---|:---|:---|:---| 
+
+|           |           |             |            |            | 
+|:--------- |:----------|:------------|:-----------|:-----------| 
 |abstract   |continue   |for          |new         |switch      |
 |assert     |default    |if           |package     |synchronized|
 |boolean    |do         |goto         |private     |this        |
