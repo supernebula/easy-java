@@ -1,4 +1,4 @@
-﻿C#和JAVA语言规范-关键字比较:
+﻿[JAVA 10](https://github.com/supernebula/easy-java/blob/master/语言规范/csharp%26java_spec-compare.md)和[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范-关键字比较:
 
 | JAVA   |<font color=green>C#</font>| JAVA   |<font color=green>C#</font>| JAVA     |<font color=green>C#</font> | JAVA   |<font color=green>C#</font>| JAVA       |<font color=green>c#</font> |
 |:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
@@ -14,7 +14,6 @@
 |const   |*<font color=green>const?</font>*|float   |*<font color=green>float</font>*   |native    |          |super   |*<font color=green>base</font>*     |while       |*<font color=green>while</font>*  |
 |_       |_       |        |        |          |          |        |         |           |            |
 
-以上关键字对比是基于[[JAVA 10]](https://github.com/supernebula/easy-java/blob/master/语言规范/csharp%26java_spec-compare.md)和[[C# 7.0]](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范。
 
 其他JAVA独有的关键字：
 
