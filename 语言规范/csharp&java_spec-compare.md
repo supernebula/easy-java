@@ -11,10 +11,12 @@
 |catch   |*<font color=green>catch</font>* |extends |*<font color=green>:(继承类)</font>*|int       |*<font color=green>int</font>*     |short  |*<font color=green>short</font>*    |try         |*<font color=green>try</font>*     |
 |char    |*<font color=green>char</font>* |final   |*<font color=green>readonly?</font>*|interface|*<font color=green>interface</font>*|static  |*<font color=green>static</font>*   |void        |*<font color=green>void</font>*  |
 |class   |*<font color=green>class</font>* |finally |*<font color=green>finally</font>* |long      |*<font color=green>long</font>*     |strictfp|         |volatile    |*<font color=green>volatile?</font>*|
-|const   |*<font color=green>const?</font>*|float   |*<font color=green>float</font>*   |native    |          |super   |*<font color=green>lbase</font>*     |while       |*<font color=green>while</font>*  |
+|const   |*<font color=green>const?</font>*|float   |*<font color=green>float</font>*   |native    |          |super   |*<font color=green>base</font>*     |while       |*<font color=green>while</font>*  |
 |_       |_       |        |        |          |          |        |         |           |            |
 
-JAVA另外：
+以上关键字对比是基于[[JAVA 10]](https://github.com/supernebula/easy-java/blob/master/语言规范/csharp%26java_spec-compare.md)和[[C# 7.0]](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范。
+
+其他JAVA独有的关键字：
 
 strictfp, 即 strict float point (精确浮点)
 
