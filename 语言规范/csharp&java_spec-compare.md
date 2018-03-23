@@ -1,17 +1,17 @@
-﻿C#和JAVA语言规范比较:
+﻿C#和JAVA语言规范-关键字比较:
 
-| JAVA   | c#     | JAVA   | c#     | JAVA     | c#        | JAVA   | c#      | JAVA       | c#       |
-|:-------|:-------|:-------|:-------|:---------|:----------|:-------|:--------|:-----------|:----------|
-|abstract|*<font color=green>abstract</font>*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
-|assert  |        |default |*default* |if        |*if*      |package |*namespace*|synchronized|*lock*  |
-|boolean |*<font color=green>bool</font>*  |do      |*do*      |goto      |*goto*    |private |*private*  |this        |*this*  |
-|break   |*<font color=green>break</font>* |double  |*double*  |implements|*:(实现接口)*|protected|*protected*|throw       |*throw*|
-|byte    |*<font color=green>byte</font>*  |else    |*else*    |import    |*using*   |public  |*public*   |throws      |         |
-|case    |*<font color=green>case</font>*  |enum    |*enum*    |instanceof|*as*      |return  |*return*   |transient   |         |
-|catch   |*<font color=green>catch</font>* |extends |*:(继承类)*|int       |*int*     |short  |*short*    |try         |*try*     |
-|char    |*<font color=green>char</font>* |final   |*readonly?*|interface|*interface*|static  |*static*   |void        |*void*  |
-|class   |*<font color=green>class</font>* |finally |*finally* |long      |*long*     |strictfp|         |volatile    |*volatile?*|
-|const   |*<font color=green>const?</font>*|float   |*float*   |native    |          |super   |*base*     |while       |*while*  |
+| JAVA   |<font color=green>C#</font>| JAVA   |<font color=green>C#</font>| JAVA     |<font color=green>C#</font> | JAVA   |<font color=green>C#</font>| JAVA       |<font color=green>c#</font> |
+|:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
+|abstract|*<font color=green>abstract</font>*|continue|*<font color=green>continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
+|assert  |        |default |*<font color=green>default</font>* |if        |*<font color=green>if</font>*      |package |*<font color=green>namespace</font>*|synchronized|*<font color=green>lock</font>*  |
+|boolean |*<font color=green>bool</font>*  |do      |*<font color=green>do</font>*      |goto      |*<font color=green>goto</font>*    |private |*<font color=green>private</font>*  |this        |*<font color=green>this</font>*  |
+|break   |*<font color=green>break</font>* |double  |*<font color=green>double</font>*  |implements|*<font color=green>:(实现)</font>*|protected|*<font color=green>protected</font>*|throw       |*<font color=green>throw</font>*|
+|byte    |*<font color=green>byte</font>*  |else    |*<font color=green>else</font>*    |import    |*<font color=green>using</font>*   |public  |*<font color=green>public</font>*   |throws      |         |
+|case    |*<font color=green>case</font>*  |enum    |*<font color=green>enum</font>*    |instanceof|*<font color=green>as</font>*      |return  |*<font color=green>return</font>*   |transient   |         |
+|catch   |*<font color=green>catch</font>* |extends |*<font color=green>:(继承类)</font>*|int       |*<font color=green>int</font>*     |short  |*<font color=green>short</font>*    |try         |*<font color=green>try</font>*     |
+|char    |*<font color=green>char</font>* |final   |*<font color=green>readonly?</font>*|interface|*<font color=green>interface</font>*|static  |*<font color=green>static</font>*   |void        |*<font color=green>void</font>*  |
+|class   |*<font color=green>class</font>* |finally |*<font color=green>finally</font>* |long      |*<font color=green>long</font>*     |strictfp|         |volatile    |*<font color=green>volatile?</font>*|
+|const   |*<font color=green>const?</font>*|float   |*<font color=green>float</font>*   |native    |          |super   |*<font color=green>lbase</font>*     |while       |*<font color=green>while</font>*  |
 |_       |_       |        |        |          |          |        |         |           |            |
 
 JAVA另外：
