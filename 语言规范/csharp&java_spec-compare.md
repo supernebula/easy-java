@@ -5,7 +5,7 @@
 |abstract|*<font color=green>abstract</font>*|continue|*<font color=green>continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |        |default |*<font color=green>default</font>* |if        |*<font color=green>if</font>*      |package |*<font color=green>namespace</font>*|synchronized|*<font color=green>lock</font>*  |
 |boolean |*<font color=green>bool</font>*  |do      |*<font color=green>do</font>*      |goto      |*<font color=green>goto</font>*    |private |*<font color=green>private</font>*  |this        |*<font color=green>this</font>*  |
-|break   |*<font color=green>break</font>* |double  |*<font color=green>double</font>*  |implements|*<font color=green>:(实现)</font>*|protected|*<font color=green>protected</font>*|throw       |*<font color=green>throw</font>*|
+|break   |*<font color=green>break</font>* |double  |*<font color=green>double</font>*  |implements|*<font color=green>:(实现接口)</font>*|protected|*<font color=green>protected</font>*|throw       |*<font color=green>throw</font>*|
 |byte    |*<font color=green>byte</font>*  |else    |*<font color=green>else</font>*    |import    |*<font color=green>using</font>*   |public  |*<font color=green>public</font>*   |throws      |         |
 |case    |*<font color=green>case</font>*  |enum    |*<font color=green>enum</font>*    |instanceof|*<font color=green>as</font>*      |return  |*<font color=green>return</font>*   |transient   |         |
 |catch   |*<font color=green>catch</font>* |extends |*<font color=green>:(继承类)</font>*|int       |*<font color=green>int</font>*     |short  |*<font color=green>short</font>*    |try         |*<font color=green>try</font>*     |
