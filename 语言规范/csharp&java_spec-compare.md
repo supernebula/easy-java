@@ -2,16 +2,16 @@
 
 | JAVA   | c#     | JAVA   | c#     | JAVA     | c#        | JAVA   | c#      | JAVA       | c#       |
 |:-------|:-------|:-------|:-------|:---------|:----------|:-------|:--------|:-----------|:----------|
-|abstract|*<font color=red>abstract</font>*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
+|abstract|*<font color=green>abstract</font>*|continue|*continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |        |default |*default* |if        |*if*      |package |*namespace*|synchronized|*lock*  |
-|boolean |*<font color=red>bool</font>*  |do      |*do*      |goto      |*goto*    |private |*private*  |this        |*this*  |
-|break   |*<font color=red>break</font>* |double  |*double*  |implements|*:(实现接口)*|protected|*protected*|throw       |*throw*|
-|byte    |*<font color=red>byte</font>*  |else    |*else*    |import    |*using*   |public  |*public*   |throws      |         |
-|case    |*<font color=red>case</font>*  |enum    |*enum*    |instanceof|*as*      |return  |*return*   |transient   |         |
-|catch   |*<font color=red>catch</font>* |extends |*:(继承类)*|int       |*int*     |short  |*short*    |try         |*try*     |
-|char    |*<font color=red>char</font>* |final   |*readonly?*|interface|*interface*|static  |*static*   |void        |*void*  |
-|class   |*<font color=red>class</font>* |finally |*finally* |long      |*long*     |strictfp|         |volatile    |*volatile?*|
-|const   |*<font color=red>const?</font>*|float   |*float*   |native    |          |super   |*base*     |while       |*while*  |
+|boolean |*<font color=green>bool</font>*  |do      |*do*      |goto      |*goto*    |private |*private*  |this        |*this*  |
+|break   |*<font color=green>break</font>* |double  |*double*  |implements|*:(实现接口)*|protected|*protected*|throw       |*throw*|
+|byte    |*<font color=green>byte</font>*  |else    |*else*    |import    |*using*   |public  |*public*   |throws      |         |
+|case    |*<font color=green>case</font>*  |enum    |*enum*    |instanceof|*as*      |return  |*return*   |transient   |         |
+|catch   |*<font color=green>catch</font>* |extends |*:(继承类)*|int       |*int*     |short  |*short*    |try         |*try*     |
+|char    |*<font color=green>char</font>* |final   |*readonly?*|interface|*interface*|static  |*static*   |void        |*void*  |
+|class   |*<font color=green>class</font>* |finally |*finally* |long      |*long*     |strictfp|         |volatile    |*volatile?*|
+|const   |*<font color=green>const?</font>*|float   |*float*   |native    |          |super   |*base*     |while       |*while*  |
 |_       |_       |        |        |          |          |        |         |           |            |
 
 JAVA另外：
