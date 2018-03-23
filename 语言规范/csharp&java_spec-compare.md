@@ -1,4 +1,4 @@
-﻿[JAVA 10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)和[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范-关键字比较:
+﻿[JAVA 10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)和[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范-基础关键字比较:
 
 | JAVA   |<font color=green>C#</font>| JAVA   |<font color=green>C#</font>| JAVA     |<font color=green>C#</font> | JAVA   |<font color=green>C#</font>| JAVA       |<font color=green>c#</font> |
 |:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
