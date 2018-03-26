@@ -1,8 +1,8 @@
 ﻿# 关键字：
 
-## [JAVA 10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9)和[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范-基础关键字比较:
+## [JAVA 10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9) ==>[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)语言规范-基础关键字比较:
 
-| JAVA   |<font color=green>C#</font>| JAVA   |<font color=green>C#</font>| JAVA     |<font color=green>C#</font> | JAVA   |<font color=green>C#</font>| JAVA       |<font color=green>C#</font> |
+| JAVA   |<font color=green>C#等价</font>| JAVA   |<font color=green>C#等价</font>| JAVA     |<font color=green>C#等价</font> | JAVA   |<font color=green>C#等价</font>| JAVA       |<font color=green>C#等价</font> |
 |:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
 |abstract|*<font color=green>abstract</font>*|continue|*<font color=green>continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |System.Diagnostics.Assert(bool)|default |*<font color=green>default</font>* |if        |*<font color=green>if</font>*      |package |*<font color=green>namespace</font>*|synchronized|*<font color=green>lock</font>*  |
@@ -26,46 +26,45 @@
 
 
 
-## [C#独有关键字:](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)
+## 关键字：C# 7.0 ==> JAVA 10
 
-| C#     |   JAVA       |   C#      |   JAVA       |   C#      |   JAVA     |   C#      |   JAVA     |
-|:-------|:-------------|:----------|:-------------|:----------|:-----------|:----------|:-----------|
-|abstract|              |as         |              | base       |           |bool       |            |
-|break  |               |byte       |              | case       |           |catch      |            |
-|char    |              |checked    |              | class      |           |const      |            |
-|continue|              |decimal    |              | default    |           |delegate   |            |
-|do      |              |double     |              | else       |           |enum       |            |
-|event   |              |explicit   |              | extern     |           |false      |            |
-|finally |              |fixed      |              | float      |           |for        |            |
-|foreach |              |goto       |              | if         |           |implicit   |            |
-|in      |              |int        |              | interface  |           |internal   |            |
-|is      |              |lock       |              | long       |           |namespace  |            |
-|new     |              |null       |              | object     |           |operator   |            |
-|out     |              |override   |              | params     |           |private    |            |
-|protected|             |public     |              | readonly   |           |ref        |            |
-|return  |              |sbyte      |              | sealed     |           |short      |            |
-|sizeof  |              |stackalloc |              | static     |           |string     |            |
-|struct  |              |switch     |              | this       |           |throw      |            |
-|true    |              |try        |              | typeof     |           |uint       |            |
+| C#     |   JAVA等价   |   C#      |   JAVA等价   |   C#       |   JAVA等价  |   C#      |   JAVA等价 |
+|:-------|-------------:|:----------|-------------:|:-----------|-----------:|:----------|----------:|
+|abstract|abstract      |as         |              | base       |super      |bool       |boolean     |
+|break   |break         |byte       |byte          | case       |case       |catch      |catch       |
+|char    |char          |checked    |              | class      |class      |const      |final?      |
+|continue|continue      |decimal    |              | default    |default    |delegate   |            |
+|do      |do            |double     |double        | else       |else       |enum       |enum        |
+|event   |              |explicit   |              | extern     |native?    |false      |false?      |
+|finally |finally       |fixed      |              | float      |float      |for        |for         |
+|foreach |              |goto       |goto          | if         |if         |implicit   |            |
+|in      |              |int        |int           | interface  |interface  |internal   |            |
+|is      |instanceof    |lock       |synchronized  | long       |long       |namespace  |package     |
+|new     |new           |null       |              | object     |           |operator   |            |
+|out     |              |override   |              | params     |           |private    |private     |
+|protected|protected    |public     |public        | readonly   |           |ref        |            |
+|return  |return        |sbyte      |              | sealed     |           |short      |short       |
+|sizeof  |              |stackalloc |              | static     |static     |string     |            |
+|struct  |              |switch     |switch        | this       |this       |throw      |throw       |
+|true    |true          |try        |try           | typeof     |           |uint       |            |
 |ulong   |              |unchecked  |              | unsafe     |           |ushort     |            |
-|using   |              |using static|             |virtual     |           |void       |            |
-|abstract|              |as         |              | base       |           |bool       |            |
-|volatile|              |while      |              |            |           |           |            |
+|using   |import        |using static|             |virtual     |           |void       |void        |
+|volatile|volatile      |while      |while         |            |           |           |            |
 
 
-## [C#上下文关键字:](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index)
+## 上下文关键字: C# 7.0 ==> JAVA 10
 
 | C#                            |   JAVA       |   C#               |   JAVA       |   C#           |   JAVA    |
-|:------------------------------|:-------------|:-------------------|:-------------|:---------------|:----------|
-|add                            |              |alias               |              | ascending      |           |
-|async                          |              |await               |              | descending     |           |
-|dynamic                        |              |from                |              | get            |           |
-|global                         |              |group               |              | into           |           |
-|join                           |              |let                 |              | nameof         |           |
-|orderby                        |              |partial (type)      |              | partial(method)|           |
-|remove                         |              |select              |              | set            |           |
-|value                          |              |var                 |              | yield          |           |
-|when (filter condition)        |              |                    |              |                |           |
-|where (generic type constraint)|              |                    |              |                |           |
-|where (query clause)           |              |                    |              |                |           |
+|:------------------------------|:-------------|:-------------------|:-------------|:----------------|:----------|
+|add (+=)                       |              |alias               |              | ascending (linq)|           |
+|async                          |              |await               |              | descending (linq)|           |
+|dynamic                        |              |from (linq)         |              | get             |           |
+|global                         |              |group (linq)        |              | into (linq)     |           |
+|join (linq)                    |              |let                 |              | nameof          |           |
+|orderby (linq)                 |              |partial (type)      |              | partial(method) |           |
+|remove (-=)                    |              |select (linq)       |              | set             |           |
+|value                          |              |var                 |              | yield           |           |
+|when (filter condition)        |              |                    |              |                 |           |
+|where (generic type constraint)|              |                    |              |                 |           |
+|where (query clause)           |              |                    |              |                 |           |
 
