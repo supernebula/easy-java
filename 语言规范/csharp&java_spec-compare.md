@@ -25,10 +25,10 @@ strictfp 即  strict float point //精确浮点
 
 | C#     |   JAVA等价   |   C#      |   JAVA等价   |   C#       |   JAVA等价  |   C#      |   JAVA等价 |
 |:-------|-------------:|:----------|-------------:|:-----------|-----------:|:----------|----------:|
-|abstract|abstract      |as         |              | base       |super      |bool       |boolean     |
+|abstract|abstract      |as         |无            | base       |super      |bool       |boolean     |
 |break   |break         |byte       |byte          | case       |case       |catch      |catch       |
-|char    |char          |checked    |              | class      |class      |const      |final?      |
-|continue|continue      |decimal    |              | default    |default    |delegate   |            |
+|char    |char          |checked    |              | class      |class      |const      |final       |
+|continue|continue      |decimal    |BigDecimal?   | default    |default    |delegate   |Delegate?   |
 |do      |do            |double     |double        | else       |else       |enum       |enum        |
 |event   |              |explicit   |              | extern     |native?    |false      |false?      |
 |finally |finally       |fixed      |              | float      |float      |for        |for         |
@@ -63,3 +63,10 @@ strictfp 即  strict float point //精确浮点
 |where (generic type constraint)|              |                    |              |                 |           |
 |where (query clause)           |              |                    |              |                 |           |
 
+
+
+## C#（针对 Java 开发人员）
+
+[MSDN C# 编程语言（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228602%28v%3dvs.90%29)
+[MSDN C# 代码示例（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228363%28v%3dvs.90%29)
+[MSDN C# 应用程序类型（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228501%28v%3dvs.90%29)
