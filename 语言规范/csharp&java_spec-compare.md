@@ -1,6 +1,6 @@
-﻿# 对比 C# 和 JAVA 语言规范
+﻿# 对比 [C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index) 和 [JAVA 10](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9) 语言规范
 
-## 一.[JAVA 10关键字](https://docs.oracle.com/javase/specs/jls/se10/html/jls-3.html#jls-3.9) -->[C# 7.0](https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/index):
+## 关键字 JAVA --> C#:
 
 | JAVA   |<font color=green>C#等价</font>| JAVA   |<font color=green>C#等价</font>| JAVA     |<font color=green>C#等价</font> | JAVA   |<font color=green>C#等价</font>| JAVA       |<font color=green>C#等价</font> |
 |:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
@@ -21,7 +21,7 @@ JAVA关键字：
 
 strictfp 即  strict float point //精确浮点
 
-## C# 7.0关键字 --> JAVA 10
+## 关键字 C# 7.0 --> JAVA 10
 
 | C#     |   JAVA等价   |   C#      |   JAVA等价   |   C#       |   JAVA等价  |   C#      |   JAVA等价 |
 |:-------|-------------:|:----------|-------------:|:-----------|-----------:|:----------|----------:|
