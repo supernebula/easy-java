@@ -1,7 +1,7 @@
-
+ 
 # easy-java
 
-An veteran programmer's java study notes
+An c# veteran programmer's java study notes
 
 ## 参考
 
