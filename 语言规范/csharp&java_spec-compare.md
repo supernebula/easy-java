@@ -6,7 +6,7 @@
 |:-------|-------:|:-------|-------:|:---------|----------:|:-------|--------:|:-----------|----------:|
 |abstract|*<font color=green>abstract</font>*|continue|*<font color=green>continue*|for     |*for*     |new     |*new*      |switch      |*switch*|
 |assert  |System.Diagnostics.Assert(bool)|default |*<font color=green>default</font>* |if        |*<font color=green>if</font>*      |package |*<font color=green>namespace</font>*|synchronized|*<font color=green>lock</font>*  |
-|boolean |*<font color=green>bool</font>*  |do      |*<font color=green>do</font>*      |goto      |*<font color=green>goto</font>*    |private |*<font color=green>private</font>*  |this        |*<font color=green>this</font>*  |
+|boolean |*<font color=green>bool</font>*  |do      |*<font color=green>do</font>*      |goto(不支持)|*<font color=green>goto</font>*    |private |*<font color=green>private</font>*  |this        |*<font color=green>this</font>*  |
 |break   |*<font color=green>break</font>* |double  |*<font color=green>double</font>*  |implements|*<font color=green>:(实现接口)</font>*|protected|*<font color=green>protected</font>*|throw       |*<font color=green>throw</font>*|
 |byte    |*<font color=green>byte</font>*  |else    |*<font color=green>else</font>*    |import    |*<font color=green>using</font>*   |public  |*<font color=green>public</font>*   |throws      |方法注释：<br/>&lt;exception cref="Exception"&gt;注释&lt;/exception&gt;         |
 |case    |*<font color=green>case</font>*  |enum    |*<font color=green>enum</font>*    |instanceof|*<font color=green>is</font>*      |return  |*<font color=green>return</font>*   |transient   |[Serialization.XmlIgnore]或[JsonIgnore]等特性|
