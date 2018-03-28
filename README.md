@@ -3,7 +3,9 @@
 
 An c# veteran programmer's java study notes
 
-## 参考
+## 比较学习方法
+
+[C#、JAVA语言规范类比](语言规范/csharp%26java_spec-compare.md)
 
 C#（针对 Java 开发人员）
 
@@ -12,6 +14,8 @@ C#（针对 Java 开发人员）
 [MSDN C# 代码示例（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228363%28v%3dvs.90%29)
 
 [MSDN C# 应用程序类型（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228501%28v%3dvs.90%29)
+
+## 参考
 
 [更多参考资料](Reference.md)
 
