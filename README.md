@@ -13,5 +13,5 @@ C#（针对 Java 开发人员）
 
 [MSDN C# 应用程序类型（针对 Java 开发人员）](https://docs.microsoft.com/zh-cn/previous-versions/visualstudio/visual-studio-2008/ms228501%28v%3dvs.90%29)
 
-[更多参考资料](Refrence.md)
+[更多参考资料](Reference.md)
 
