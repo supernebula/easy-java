@@ -17,5 +17,5 @@ C#（针对 Java 开发人员）
 
 ## 二、JAVA学习路线
 
-[更多参考资料](路线图/Reference.md)
+[进入路线图](路线图/Reference.md)
 
