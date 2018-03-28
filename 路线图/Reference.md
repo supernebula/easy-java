@@ -4,7 +4,7 @@
 
 ### 路线图
 
-![Java学习路线图](路线图/java_roadmap_2017.png "Java学习路线图")
+![Java学习路线图](/路线图/java_roadmap_2017.png "Java学习路线图")
 
 [路线图详述](https://blog.csdn.net/qq_27026603/article/details/65946662)
 
