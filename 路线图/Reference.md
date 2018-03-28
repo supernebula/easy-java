@@ -8,4 +8,26 @@
 
 [路线图详述](https://blog.csdn.net/qq_27026603/article/details/65946662)
 
+#### 节点
+
+第1月（）
+Java语言基础
+
+以Java面向对象为培训方向，主研Java Api ，辅助一个项目实践练习。
+
+第2个月
+数据库和WEB基础
+
+以Java Api, XML, Oracle,JDBC Web前端基础，Jquery为培训方向，辅助一个项目实践练习。
+
+第3个月
+SSM 框架
+
+以Servlet/Jsp,Spring框架,SpringMVC框架,SpringMybatis框架为培训方向，辅助一个项目实践。
+
+第4个月
+SSH 框架
+
+以Struts2,Hibernate为培训方向, 最后学习冲刺阶段，辅之加强市面上最长用的SSM框架和SSH框架部分学习及大量。
+
 
