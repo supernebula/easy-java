@@ -15,3 +15,5 @@ C#（针对 Java 开发人员）
 
 ## 三、JAVA开发工具
 
+IntelliJ IDEA
+
