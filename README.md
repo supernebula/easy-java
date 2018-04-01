@@ -17,3 +17,10 @@ C#（针对 Java 开发人员）
 
 IntelliJ IDEA
 
+## 四、参考资料
+
+《Effective Java中文版（第2版）》
+
+《Spring实战（第4版）》
+
+《Java 8实战》
