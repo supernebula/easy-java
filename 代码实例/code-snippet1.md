@@ -134,9 +134,60 @@ public Fi1elnputStream(String name) throws FileNotFoundException
 #### JAVA断言
 
 ```java
-//断言语法
-assert 条件;
+//断言方式一  assert 条件;
+
+assert x >= 0;
+
+//断言方式二  assert 条件 : 表达式; 例如：
+assert x >= 0 : x;
+//如果结果为 false, 则抛出一个 AssertionError 异常,将 x 的实际值传递给 AssertionError 对象
 ```
+
+启用和禁用断言
+
+在默认情况下， 断言被禁用。可以在运行程序时用 -enableassertions 或 -ea 选项启用: java -enableassertions MyApp
+
+#### 日志？
+
+保留疑问？
+
+#### 范型-通配符类型
+
+通配符类型中， 允许类型参数变化。 
+
+```java
+//例如，通配符类型,?是 Employee 的子类
+Pair<? extends Employee〉
+
+//通配符的超类型限定
+//指定一个超 类型限定(supertypebound), 如下所亦:
+? super Manager
+
+ //例如， Pair<? super Manager> 有方法
+void setFirst(? super Manager) 
+
+? super Manager getFirst()
+
+```
+
+#### 范型-无限定通配符
+
+````java
+//还可以使用无限定的通配符， 例如，Pair<?>
+? getFirst() 
+void setFirst(?)
+
+//可以调用 setFirst(null)
+````
+
+#### 通配符捕获？
+
+保留疑问？
+
+
+#### 反射和范型？
+
+保留疑问？
 
 
 
