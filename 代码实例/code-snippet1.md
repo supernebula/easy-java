@@ -1,4 +1,5 @@
-# JAVA基础
+
+# 《JAVA核心技术 卷1 基础知识 第10版》读书笔记
 
 ## 第三章JAVA集成程序设计结构
 
@@ -59,7 +60,7 @@ public class TestClass{
 }
 ```
 
-#### 通用注释
+#### 通用注释
 
 @author 
 
@@ -86,6 +87,56 @@ public class TestClass{
 
 标记， 可以使用超级链接， 链接到 javadoc 文档的相关部分或外
 部文档
+
+
+#### 继承类  和 实现接口
+
+```java
+
+public class Manager extends Employee implements Iinterface{
+    //添加方法和域 
+}
+
+```
+
+#### lambda表达式
+
+```java
+
+(String first, String second) ->
+{ 
+    if (first.length() < second.length()) 
+        return -1; 
+    else if (first.length() > second.length()) 
+        return 1;
+//即使 lambda 表达式没有参数， 仍然要提供空括号， 就像无参数方法一样:
+    else 
+        return 0; 
+}
+
+```
+
+#### 异常
+
+所有的异常都是由 Throwable 继承而来， 但在下一层立即分解为两个分 支:Error 和 Exception
+
+Throwable
+
+ |-----Error  : 描述了 Java 运行时系统的内部错误和资源耗尽错误
+
+ |-----Exception (RuntimeException、 其他异常)
+
+ ```java
+//throws关键字，声明受查异常
+public Fi1elnputStream(String name) throws FileNotFoundException
+ ```
+
+#### JAVA断言
+
+```java
+//断言语法
+assert 条件;
+```
 
 
 
