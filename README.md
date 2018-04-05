@@ -1,8 +1,6 @@
  
 # easy-java
 
-An c# veteran programmer's java study notes
-
 ## 一、比较学习方法
 
 [C#、JAVA语言规范类比](语言规范/csharp%26java_spec-compare.md)
