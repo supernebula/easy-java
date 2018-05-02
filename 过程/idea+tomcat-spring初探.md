@@ -15,9 +15,10 @@
 ```sh
 cp -r /Users/jikukalun/Downloads/apache-tomcat-8.0.39/ /Library/Tomcat/tomcat8
 ```
-2. 配置文件权限
+2. 配置文件权限
 
-安装后，startup.sh 没有运行权限，如下命令配置：
+安装后，startup.sh 没有运行权限，如下命令配置：
+
 ```sh
 
 chmod -R 777  [FolderName]
@@ -29,13 +30,13 @@ chmod 777 *.sh  //将文件改为最高权限
 
 ### 运行
 
-启动命令
+启动命令
 
 ```sh
 ./startup.sh
 ```
 
-停止命令
+停止命令
 
 ```sh
 ./shutdown.sh
