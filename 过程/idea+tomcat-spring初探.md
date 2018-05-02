@@ -41,6 +41,18 @@ chmod 777 *.sh  //将文件改为最高权限
 ./shutdown.sh
 ```
 
+## Tomcat相关问题
+
+org.apache.jasper.JasperException: java.lang.IllegalStateException: No output folder: 
+
+关于这个原因主要是权限的问题，在tomcat/work/Catalina/localhost/，主要是这个目录没有被读写的权限，导致文件不能被编译到该指定的工作目录中，此时我们就要针对与这个目录做一些权限的修改权限至少要达到755或者以上，同时注意此处修改权限必须用root身份进行操作，否则不能进行修改，修改完后编译好的jsp文件就在localhost的目录当中了
+
+```sh
+
+chmod -R 777  localhost
+
+```
+
 # 参考资料
 
 
