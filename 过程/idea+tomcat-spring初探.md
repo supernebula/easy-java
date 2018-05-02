@@ -1,10 +1,8 @@
+# 教程
 
+## Tomcat
 
-# 教程
-
-## Tomcat
-
-### 下载tomcat
+### 下载tomcat
 
 官网下载地址： http://tomcat.apache.org/
 
